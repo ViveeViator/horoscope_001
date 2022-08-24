@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto';
+    background-image: url(../icon/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header__title {
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 26px;
+text-align: center;
+
+color: #bbe6ff;
+
+}
+
+
+.header__title__after {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #818C99;
+
+}
+.header_text {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 41px;
+
+    align-items: center;
+    text-align: center;
+    color: #000000;
+
+}
+
+.header__box {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: blueviolet;
+gap: 10px;
+border-radius: 20px 20px 20px 20px;
+}
+
+/* --------------------------------------------HERO */
+
+.hero_title {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #818C99;
+}
+
+.hero_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #000000;
+}
+.hero__text__after {
+
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+}
