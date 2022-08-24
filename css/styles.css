@@ -1,6 +1,6 @@
 body {
-    font-family: 'Roboto';
-    background-image: url(../icon/fon.jpg);
+    /* font-family: 'Roboto'; */
+    background-image: url(../icon/fon0.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,7 +13,8 @@ font-size: 21px;
 line-height: 26px;
 text-align: center;
 
-color: #bbe6ff;
+color: #6aeb9b;
+text-shadow: #000000 1px 1px 2px;
 
 }
 
@@ -24,7 +25,7 @@ color: #bbe6ff;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    color: #818C99;
+    color: #f8f7f8;
 
 }
 .header_text {
@@ -33,23 +34,33 @@ color: #bbe6ff;
     font-weight: 500;
     font-size: 36px;
     line-height: 41px;
-
     align-items: center;
     text-align: center;
-    color: #000000;
-
+    color: #ffffff;
 }
 
 .header__box {
-display: flex;
+/* display: flex;
 justify-content: center;
 align-items: center;
-text-align: center;
-background-color: blueviolet;
+text-align: center; */
+background-color: rgba(137, 43, 226, 0.377);
 gap: 10px;
 border-radius: 20px 20px 20px 20px;
 }
-
+.box { 
+    height: 100vh;
+overflow: auto
+}
+.img {
+    border-radius: 20px 20px 20px 20px;
+    
+}
+a {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
 /* --------------------------------------------HERO */
 
 .hero_title {
